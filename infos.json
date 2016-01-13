@@ -1,0 +1,17 @@
+{
+	"iut": {
+			"title": "Iut du Puy en Velay",
+			"body": "IUT du pouy en velay où on apprends pleins de choses",
+			"img": "http://iutweb-lepuy.u-clermont1.fr/imagerie/images/morfeoshow/-9676/big/IMAGINA2029copie1.jpg"
+		},
+	"prefecture": {
+		 	"title": "Préfecture",
+			"body": "Je sais pas à quoi ça sert mais c'est joli.",
+			"img": "http://culture43.fr/wp-content/uploads/2013/02/prefecture.jpg"
+		},
+	"crozatier": {
+			"title": "Musé Crozatier",
+			"body": "Un jour il y avait une exposition sur les mamouths, c'était cool.",
+			"img": "http://www.auvergne-centrefrance.com/geotouring/musees/haute-loire/musee-crozatier-max.jpg"
+	}
+}

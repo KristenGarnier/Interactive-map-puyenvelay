@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>LE PUY EN VELAY</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="jumbotron">
+	<div class="container">
+		<h1>Parcourir le Puy en Velay</h1>
+	  <p>Cliquez sur les elements de carte ci dessous pour avoir des informations</p>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<button id="toggleButton" class="btn btn-primary">Afficher / Cacher les rues</button>
+			<button id="reset" class="btn btn-default pull-right">Reset</button>
+			<div id="template" class="animated"></div>
+		</div>
+		<div class="col-md-6">
+			<div id="svg"></div>
+		</div>
+	</div>
+</div>
+
+
+<script id="infos-template" type="text/x-handlebars-template">
+    <h1>{{title}}</h1>
+    <div class="row">
+	    <div class="col-md-4">
+	    	<img src="{{img}}">	
+	    </div>
+	    <div class="col-md-8">
+	    	<h2> Quelque mots sur le batiment : </h2>
+	    	<p>{{body}} </p>
+	    </div>
+    </div>
+</script>
+
+<script id="dummy-template" type="text/x-handlebars-template">
+    <div class="alert alert-info" role="alert">
+    	{{alert}}
+    </div>
+</script>
+
+
+<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="snap.svg-min.js"></script>
+<script src="handlebars.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

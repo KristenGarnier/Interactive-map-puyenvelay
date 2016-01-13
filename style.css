@@ -1,0 +1,29 @@
+#prefecture, #iut, #crozatier {
+	transition: all 0.2s ease-in-out;
+	opacity: 0.5;
+}
+
+#prefecture:hover, #iut:hover, #crozatier:hover {
+	opacity: 1;
+	transform: translate(20px, 20px);
+}
+
+img {
+	width: 100%;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+#prefecture.active, #iut.active, #crozatier.active {
+	opacity: 1;
+}
+
+#template .alert{
+	margin-top: 4rem;
+}
+
+#template h1 {
+	margin-bottom: 2rem;
+}
